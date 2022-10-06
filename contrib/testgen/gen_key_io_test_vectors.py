@@ -18,10 +18,11 @@ import random
 from segwit_addr import bech32_encode, decode_segwit_address, convertbits, CHARSET, Encoding
 
 # key types
-PUBKEY_ADDRESS = 48
+# Reference: https://en.bitcoin.it/wiki/List_of_address_prefixes
+PUBKEY_ADDRESS = 63
 SCRIPT_ADDRESS = 5
 SCRIPT_ADDRESS2 = 50
-PUBKEY_ADDRESS_TEST = 111
+PUBKEY_ADDRESS_TEST = 125
 SCRIPT_ADDRESS_TEST = 196
 SCRIPT_ADDRESS_TEST2 = 58
 PUBKEY_ADDRESS_REGTEST = 111
